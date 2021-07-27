@@ -11,9 +11,10 @@ what to do when you gotta make some changes:
 5) "git push origin master"
     5.5) if origin causes an error -> "git remote add origin ${git ssh url}"
 
-## trials
+# trials
 
 how to merge: terminal -> git merge ${name of branch you want to merge with the branch you're on}
+how to save to current branch: terminal -> git push --set-upstream origin ${the branch you're on}
 
 ## branches
 
