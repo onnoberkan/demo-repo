@@ -25,3 +25,6 @@ terminal -> "git checkout -b '${descriptive af branch name}' "
 
 # how to snake between branches
 terminal -> "git checkout ${the name of the branch you want to go to}"
+
+# after merging (on github)
+terminal -> "git pull origin master" / "git pull" (if you already have an upstream on)
