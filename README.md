@@ -10,3 +10,7 @@ what to do when you gotta make some changes:
 4) "git commit -m ${message} -m ${message description}"
 5) "git push origin master"
     5.5) if origin causes an error -> "git remote add origin ${git ssh url}"
+
+# trials
+
+how to merge: terminal -> git merge ${name of branch you want to merge with the branch you're on}
