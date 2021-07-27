@@ -14,3 +14,5 @@ what to do when you gotta make some changes:
 # trials
 
 how to merge: terminal -> git merge ${name of branch you want to merge with the branch you're on}
+how to save to the directory above: terminal -> git push --set-upstream origin ${the branch you're on}
+how to save to current branch: 
