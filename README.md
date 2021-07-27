@@ -12,7 +12,7 @@ woah man nice bod
 2) save them on vs code
 3) "git add ."
 4) "git commit -m ${message} -m ${message description}"
-5) "git push origin master"
+5) "git push origin ${branch}"
     5.5) if origin causes an error -> "git remote add origin ${git ssh url}"
 
 # branches
