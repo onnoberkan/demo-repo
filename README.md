@@ -15,3 +15,14 @@ what to do when you gotta make some changes:
 
 how to merge: terminal -> git merge ${name of branch you want to merge with the branch you're on}
 how to save to current branch: terminal -> git push --set-upstream origin ${the branch you're on}
+
+## branches
+
+# how to find out which one you're @
+terminal -> "git branch"
+
+# how to add a brand-new never before seen unique as crip branch
+terminal -> "git checkout -b '${descriptive af branch name}' "
+
+# how to snake between branches
+terminal -> "git checkout ${the name of the branch you want to go to}"
