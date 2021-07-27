@@ -32,3 +32,13 @@ terminal -> "git pull origin master" / "git pull" (if you already have an upstre
 
 # delete a branch
 terminal -> git branch -d ${name of the branch you want to delete}
+
+## how to undo
+
+# undo an add
+(after you've added) terminal -> "git reset" or "git reset ${file name}"
+
+# undo a commit
+(after you've commited) terminal -> "git reset HEAD~1"
+(undo a specific commit) terminal -> "git reset ${commit hash (can be found by: terminal -> git log)}"
+(undo a specific commit and everything since) terminal -> "git reset --hard ${commit hash}"
